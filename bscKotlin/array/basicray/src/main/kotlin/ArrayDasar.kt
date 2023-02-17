@@ -22,6 +22,7 @@ internal object ArrayDasar {
         arrayNumberDeleteOtherWay(2)
         arrayNumberDeleteAll()
         arrayNumberDeleteAllOtherWay()
+
         arrayStringShow()
         showArrayString()
         editArrayString(4, "kontras")
@@ -49,7 +50,7 @@ internal object ArrayDasar {
         // Menampilkan elemen array 1 per 1
         println("\nMenampilkan elemen array 1 per 1:")
         for (x in numbers.indices) {
-            println("$x ${numbers[x].toInt()}")
+            println("$x ${numbers[x]}")
         }
     }
 
@@ -61,12 +62,7 @@ internal object ArrayDasar {
     }
 
     private fun getItemArrayNumber(index: Int) {
-        println(
-            """
-                
-                Ambil 1 item di index $index: ${numbers[index]}
-            """.trimIndent(),
-        )
+        println("\nAmbil 1 item di index $index: ${numbers[index]}")
     }
 
     private fun arrayNumberDelete(index: Int) {
@@ -79,7 +75,7 @@ internal object ArrayDasar {
         }
         println("\nArrayList item: ")
         for (x in alist.indices) {
-            println(x.toString() + " " + alist[x])
+            println("$x  ${alist[x]}")
         }
 
         // Delete 1 item
@@ -87,7 +83,7 @@ internal object ArrayDasar {
         println("\nHapus elemen index: $index")
         println("\nArrayList item. Setelah dihapus: ")
         for (x in alist.indices) {
-            println(x.toString() + " " + alist[x])
+            println("$x  ${alist[x]}")
         }
 
         // Create Array from ArrayList
@@ -101,6 +97,7 @@ internal object ArrayDasar {
 
     private fun arrayNumberDeleteOtherWay(index: Int) {
         showArrayNumber()
+
         val number = IntArray(numbers.size - 1)
         var x = 0
         var y = 0
@@ -141,7 +138,7 @@ internal object ArrayDasar {
         // Menampilkan elemen array 1 per 1
         println("\nMenampilkan elemen array 1 per 1:")
         for (x in words.indices) {
-            println(x.toString() + " " + words[x])
+            println("$x  ${words[x]}")
         }
     }
 
