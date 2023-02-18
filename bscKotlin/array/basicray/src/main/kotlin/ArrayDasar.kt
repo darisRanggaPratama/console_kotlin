@@ -15,19 +15,19 @@ internal object ArrayDasar {
     @JvmStatic
     fun main(args: Array<String>) {
         valueArray()
-//        showArrayNumber()
-//        arrayNumberShow()
-//        getItemArrayNumber(2)
-//        arrayNumberDelete(3)
-//        arrayNumberDeleteOtherWay(2)
-//        arrayNumberDeleteAll()
-//        arrayNumberDeleteAllOtherWay()
-//
-//        arrayStringShow()
-//        showArrayString()
-//        editArrayString(4, "kontras")
-//        arrayStringAscending()
-//        arrayStringDescending()
+        showArrayNumber()
+        arrayNumberShow()
+        getItemArrayNumber(2)
+        arrayNumberDelete(3)
+        arrayNumberDeleteOtherWay(2)
+        arrayNumberDeleteAll()
+        arrayNumberDeleteAllOtherWay()
+
+        arrayStringShow()
+        showArrayString()
+        editArrayString(4, "kontras")
+        arrayStringAscending()
+        arrayStringDescending()
     }
 
     private fun valueArray() {
