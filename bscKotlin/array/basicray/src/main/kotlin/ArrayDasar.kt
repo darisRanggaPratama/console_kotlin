@@ -14,19 +14,32 @@ internal object ArrayDasar {
 
     @JvmStatic
     fun main(args: Array<String>) {
+        // Membuat Array
         valueArray()
+        // Menampilkan semua elemen array integer
         showArrayNumber()
+        // Menampilkan semua elemen array integer (Cara lain)
         arrayNumberShow()
+        // Menampilkan 1 elemen array
         getItemArrayNumber(2)
+        // Menghapus 1 elemen array
         arrayNumberDelete(3)
+        // Menghapus 1 elemen array (cara lain)
         arrayNumberDeleteOtherWay(2)
+        // Menghapus semua elemen array
         arrayNumberDeleteAll()
+        // Menghapus semua elemen array (cara lain)
         arrayNumberDeleteAllOtherWay()
 
+        // Menampilkan semua elemen array string
         arrayStringShow()
+        // Menampilkan semua elemen array string (cara lain)
         showArrayString()
+        // Mengubah 1 elemen array
         editArrayString(4, "kontras")
+        // Mengurutkan secara Ascending
         arrayStringAscending()
+        // Mengurutkan secara Descending
         arrayStringDescending()
     }
 
