@@ -1,0 +1,15 @@
+
+Qkotlin:S1172¸"8Use "_" instead of this unused lambda parameter "value".(úÕ®ô
+;kotlin:S125
+"Remove this commented out code.(°£’ñÿÿÿÿÿ
+Vkotlin:S1144A"9Remove this unused private "setArrayIntegerValue" method.(ÃƒÎÆÿÿÿÿÿ
+Pkotlin:S1144F"8Remove this unused private "getFullArrayInteger" method.(àÃ£¶
+Pkotlin:S1144_"3Remove this unused private "getArrayNumber" method.(óÏö´ùÿÿÿÿ
+Rkotlin:S1144e"5Remove this unused private "editIntArrayItem" method.(òÊ÷¡øÿÿÿÿ
+Nkotlin:S1144r"7Remove this unused private "deleteIntArrayItem" method.(€£À_
+Hkotlin:S1144€"/Remove this unused private "oddGreater" method.(±˜
+Fkotlin:S1144‹"-Remove this unused private "evenLess" method.(æì÷–
+Qkotlin:S1144–"3Remove this unused private "getLastInteger" method.(ÿ‚Ú°ûÿÿÿÿ
+Skotlin:S1144¤"5Remove this unused private "findIntegerValue" method.(ŸÅ úÿÿÿÿ
+Pkotlin:S1144«"7Remove this unused private "deleteIntegerValue" method.(¹æ€©
+Okotlin:S1144´"6Remove this unused private "deleteIntArrayAll" method.(–ÛÏã

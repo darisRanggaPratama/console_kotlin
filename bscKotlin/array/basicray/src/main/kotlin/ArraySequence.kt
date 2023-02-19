@@ -1,23 +1,65 @@
+import java.util.*
+
 class ArraySequence {
     companion object {
         private var arrayInt: IntArray = intArrayOf(0)
+        private var arrayString: Array<String?> = arrayOfNulls<String>(11)
 
         @JvmStatic
         fun main(args: Array<String>) {
-            setArrayIntegerValue(100, 130)
-            getFullArrayInteger()
-            getFullArrayIntegerOther()
-            getFullArrayIntegerDescending()
-            getFullArrayIntegerAscending()
-            getArrayNumber(5)
-            editIntArrayItem(5, 100)
-            deleteIntArrayItem(6)
-            oddGreater(100)
-            evenLess(110)
-            getLastInteger(4)
-            findIntegerValue(115)
-            deleteIntegerValue(115)
-            deleteIntArrayAll()
+//            setArrayIntegerValue(100, 130)
+//            getFullArrayInteger()
+//            getFullArrayIntegerOther()
+//            getFullArrayIntegerDescending()
+//            getFullArrayIntegerAscending()
+//            getArrayNumber(5)
+//            editIntArrayItem(5, 100)
+//            deleteIntArrayItem(6)
+//            oddGreater(100)
+//            evenLess(110)
+//            getLastInteger(4)
+//            findIntegerValue(115)
+//            deleteIntegerValue(115)
+//            deleteIntArrayAll()
+
+            setArrayStringValue()
+            getAllArrayString()
+            getArrayStringAscending()
+            getArrayStringDescending()
+        }
+
+        private fun setArrayStringValue() {
+            arrayString[0] = "raden rangga pratama"
+            arrayString[1] = "antika"
+            arrayString[2] = "muhammad nizham al Islam"
+            arrayString[3] = "haifa azzura"
+            arrayString[4] = "oyen purnama perdana"
+            arrayString[5] = "armin"
+            arrayString[6] = "mikasa ackerman"
+            arrayString[7] = "eren yeager"
+            arrayString[8] = "mochi"
+            arrayString[9] = "levi ackerman"
+            arrayString[10] = "karen"
+
+            println("\nArray String: \n${arrayString.contentToString()}")
+        }
+
+        private fun getAllArrayString() {
+            println("\nArray String (cara lain): ")
+            for (x: Int in arrayString.indices step 1) {
+                println("Index: $x Value: ${arrayString[x]}")
+            }
+        }
+
+        private fun getArrayStringAscending() {
+            var sortedArrAsc: Sequence<String?> = arrayString.asSequence()
+            println("$sortedArrAsc.co")
+        }
+
+
+        private fun getArrayStringDescending() {
+            var sortedArrDesc = arrayString.sort()
+            println(sortedArrDesc.toString())
         }
 
         private fun setArrayIntegerValue(start: Int, end: Int) {
@@ -140,7 +182,7 @@ class ArraySequence {
 
             arrayInt.asSequence()
                 .forEachIndexed { index, value -> arrayInt[index] = 0 }
-            println("Array setelah dihapus: \n${arrayInt.contentToString()}")
+            println("\nArray setelah dihapus: \n${arrayInt.contentToString()}")
         }
     }
 }
